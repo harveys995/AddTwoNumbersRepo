@@ -11,5 +11,12 @@ public class add {
         }
         
         System.out.println(num1);
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your age:");
+        int age = sc.nextInt();
+        if (age < 0) {
+            System.out.println("Invalid age");
+        }
     }
 }
